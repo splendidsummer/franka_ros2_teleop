@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>franka_cameras</name>
+  <version>0.0.1</version>
+  <description>RealSense image listener for Franka</description>
+  <maintainer email="lzuzhangshsh@gmail.com">Summer Zhang</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- buildtool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
